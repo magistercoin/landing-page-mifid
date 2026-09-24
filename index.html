@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Magister Coin | Consulente Finanziario Indipendente a Brescia</title>
-  <meta name="description" content="Consulenza Finanziaria Indipendente Fee-Only a Brescia e provincia. Consulenza libera da conflitti d'interesse con banche o assicurazioni.">
+  <title>Scarica la Guida Gratuita | Magister Coin</title>
+  <meta name="description" content="Scarica gratis la Guida alla Consulenza Finanziaria Indipendente. Scopri come proteggere e ottimizzare i tuoi investimenti senza commissioni nascoste.">
   
   <!-- Font Google -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -191,7 +191,7 @@
       color: var(--text-muted);
     }
 
-    /* Direct Brevo Form Styling */
+    /* Brevo Form Styling */
     .brevo-form-group {
       margin-bottom: 20px;
     }
@@ -202,8 +202,7 @@
       color: var(--primary);
       margin-bottom: 8px;
     }
-    .brevo-form-group input[type="email"],
-    .brevo-form-group input[type="text"] {
+    .brevo-form-group input[type="email"] {
       width: 100%;
       padding: 14px 16px;
       font-size: 1rem;
@@ -249,12 +248,16 @@
       color: #ffffff;
       border: none;
       padding: 16px 24px;
-      font-size: 1rem;
+      font-size: 1.05rem;
       font-weight: 700;
       border-radius: 8px;
       cursor: pointer;
       transition: background 0.2s ease;
       box-shadow: 0 4px 12px rgba(197, 160, 89, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
     }
     .btn-submit:hover {
       background: var(--accent-hover);
@@ -271,7 +274,7 @@
       gap: 6px;
     }
 
-    /* Section Features */
+    /* Section Features / COSA TROVERAI */
     .section-features {
       background: #ffffff;
       padding: 80px 24px;
@@ -377,7 +380,7 @@
 
   <!-- Top Info Badge -->
   <div class="top-badge-bar">
-    Consulente Finanziario Indipendente iscritto all'<span>Albo OCF (Delibera n. 1823)</span>
+    Magister Coin | Consulenza Finanziaria Indipendente <span>Albo OCF (Delibera n. 1823)</span>
   </div>
 
   <!-- Header / Navigation -->
@@ -396,32 +399,32 @@
   <!-- Hero Section -->
   <section class="hero-section">
     <div class="hero-content">
-      <h1>Pianifica il tuo futuro finanziario <span>senza conflitti d'interesse</span></h1>
+      <h1>Scarica la Guida Gratuita <span>alla Consulenza Indipendente</span></h1>
       <p class="hero-subtitle">
-        Consulenza finanziaria indipendente al 100%. Pagato esclusivamente a parcella dall'assistito per garantirti massima trasparenza e zero commissioni nascoste.
+        Scopri come tutelare i tuoi patrimoni, eliminare i costi nascosti dei prodotti bancari e investire in modo trasparente e senza conflitti d'interesse.
       </p>
 
       <ul class="trust-bullets">
         <li>
           <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-          Modello "Fee-Only": Nessuna provvigione su prodotti finanziari
+          Come riconoscere i costi occulti di fondi e polizze
         </li>
         <li>
           <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-          Pianificazione patrimoniale personalizzata su misura
+          I vantaggi del modello Fee-Only (solo a parcella)
         </li>
         <li>
           <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-          Analisi completa e diagnosi del portafoglio attuale
+          Strategie pratiche per proteggere i tuoi risparmi
         </li>
       </ul>
     </div>
 
-    <!-- Integrato direttamente l'endpoint di Brevo del form -->
+    <!-- Integrato direttamente l'endpoint di Brevo per invio Guida -->
     <div class="form-card">
       <div class="form-header">
-        <h2>Richiedi un Primo Colloquio</h2>
-        <p>Inserisci i tuoi dati per ricevere maggiori informazioni sulla consulenza indipendente.</p>
+        <h2>Scarica la Guida in PDF</h2>
+        <p>Inserisci la tua e-mail per ricevere subito il report gratuito direttamente nella tua casella di posta.</p>
       </div>
 
       <form id="sib-form" action="https://647fb00d.sibforms.com/serve/MUIFAAH4rhyjufUDSRhLCY8Bh6IPR7lR5VlWVILe2Q8d_ws9Xg39diNsN3aeD9IYRIxWkoFakQsTeVYa9UZi6ma8UpmDqbklgcW6oTdTqXTiknVpZTYc9uIltVHNEfvB4daU1-_seTADwA3NSG0oYFtPrwEdcRzvMSrM_tRf8-hqygtycnvSxvlTScuYQu4MwMeYOww6N96CkJmlfw==" method="POST">
@@ -434,25 +437,28 @@
         <div class="checkbox-group">
           <input type="checkbox" id="OPT_IN" name="OPT_IN" required>
           <label for="OPT_IN">
-            Acconsento al trattamento dei dati personali secondo la <a href="#" target="_blank">Privacy Policy</a> di Magister Coin.
+            Acconsento al trattamento dei dati e all'invio della guida secondo la <a href="#" target="_blank">Privacy Policy</a> di Magister Coin.
           </label>
         </div>
 
-        <button type="submit" class="btn-submit">Prenota un Appuntamento</button>
+        <button type="submit" class="btn-submit">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+          Scarica Ora la Guida
+        </button>
 
         <div class="security-note">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="#64748b"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>
-          Dati protetti e riservati secondo GDPR. Zero SPAM.
+          Invio immediato. Rispettiamo la tua privacy, zero SPAM.
         </div>
       </form>
     </div>
   </section>
 
-  <!-- Features / Vantaggi -->
+  <!-- Features / Cosa troverai nella guida -->
   <section class="section-features">
     <div class="section-title">
-      <h2>Perché scegliere un Consulente Indipendente?</h2>
-      <p>A differenza della banca tradizionale, la consulenza Fee-Only elimina ogni conflitto d'interesse.</p>
+      <h2>Cosa troverai all'interno della Guida</h2>
+      <p>Un manuale chiaro e sintetico pensato per chi vuole comprendere e migliorare la propria gestione patrimoniale.</p>
     </div>
 
     <div class="grid-features">
@@ -460,24 +466,24 @@
         <div class="feature-icon">
           <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z"/></svg>
         </div>
-        <h3>Zero Provvigioni</h3>
-        <p>Non percepiamo alcuna commissione di vendita sui prodotti raccomandati. Il tuo interesse è il nostro unico obiettivo.</p>
+        <h3>La Verità sui Costi Bancari</h3>
+        <p>Come identificare le commissioni trasparenti e quelle nascoste nei prodotti d'investimento tradizionali.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon">
           <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
         </div>
-        <h3>Analisi Costi Occulti</h3>
-        <p>Smascheriamo i costi nascosti dei prodotti finanziari e assicurativi bancari già presenti nel tuo portafoglio.</p>
+        <h3>Consulenza Fee-Only</h3>
+        <p>Perché l'assenza di provvigioni garantisce la massima indipendenza nelle scelte d'investimento.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon">
           <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
         </div>
-        <h3>Pianificazione Tailor-Made</h3>
-        <p>Ogni strategia viene costruita sugli obiettivi di vita reali dell'assistito, della famiglia o dell'azienda.</p>
+        <h3>Metodo di Lavoro</h3>
+        <p>I passaggi fondamentali per costruire un portafoglio finanziario equilibrato e personalizzato.</p>
       </div>
     </div>
   </section>
